@@ -1,0 +1,25 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended",
+    ":disableRateLimiting",
+    ":automergePr",
+    ":enablePreCommit",
+    ":semanticCommits",
+    ":maintainLockFilesMonthly",
+    "github>clevyr/renovate-config-public:nodeDockerLts",
+    "github>clevyr/renovate-config-public:nodeDevDependencies",
+    "github>clevyr/renovate-config-public:githubActions",
+    "github>clevyr/renovate-config-public:labels",
+    "github>clevyr/renovate-config-public:axiosPatchSchedule",
+    "github>clevyr/renovate-config-public:bitnamiSchedule",
+    "github>clevyr/renovate-config-public:php",
+    "github>clevyr/renovate-config-public:prettierGroup"
+  ],
+  "platformAutomerge": true,
+  "reviewersFromCodeOwners": true,
+  "transitiveRemediation": true,
+  "git-submodules": {
+    "enabled": true
+  }
+}
