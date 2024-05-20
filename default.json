@@ -6,6 +6,7 @@
     ":automergePr",
     ":enablePreCommit",
     ":semanticCommits",
+    ":semanticCommitTypeAll(chore)",
     ":maintainLockFilesMonthly",
     "github>clevyr/renovate-config-public:golang",
     "github>clevyr/renovate-config-public:nodeDockerLts",
