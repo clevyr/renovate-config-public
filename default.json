@@ -9,6 +9,7 @@
     ":semanticCommitTypeAll(chore)",
     ":maintainLockFilesMonthly",
     "helpers:pinGitHubActionDigestsToSemver",
+    "security:minimumReleaseAgeNpm",
     "github>clevyr/renovate-config-public:golang",
     "github>clevyr/renovate-config-public:nodeDockerLts",
     "github>clevyr/renovate-config-public:nodeDevDependencies",
