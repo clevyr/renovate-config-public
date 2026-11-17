@@ -16,7 +16,8 @@
     "github>clevyr/renovate-config-public:labels",
     "github>clevyr/renovate-config-public:axiosPatchSchedule",
     "github>clevyr/renovate-config-public:php",
-    "github>clevyr/renovate-config-public:prettierGroup"
+    "github>clevyr/renovate-config-public:prettierGroup",
+    "github>clevyr/renovate-config-public:groupPnpm"
   ],
   "platformAutomerge": true,
   "reviewersFromCodeOwners": true,
