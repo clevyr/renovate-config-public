@@ -23,5 +23,8 @@
   "transitiveRemediation": true,
   "git-submodules": {
     "enabled": true
+  },
+  "vulnerabilityAlerts": {
+    "enabled": false
   }
 }
