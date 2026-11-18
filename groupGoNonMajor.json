@@ -1,0 +1,11 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "matchDatasources": ["go"],
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "groupName": "Go non-major dependencies",
+      "extends": ["schedule:monthly"]
+    }
+  ]
+}

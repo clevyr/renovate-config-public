@@ -1,0 +1,11 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "matchDatasources": ["pypi"],
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "groupName": "Python non-major dependencies",
+      "extends": ["schedule:monthly"]
+    }
+  ]
+}
